@@ -1,0 +1,49 @@
+{
+  "name": "Example",
+  "description": "Example description",
+  "version": "0.0.1",
+  // ミリ秒タイムスタンプです (録画開始)
+  // サンプルだと, 2023/03/19 17:16:56 が録画開始時刻
+  "startWith": 1679213816437,
+  "assets": [
+    {
+      // startWithから何ミリ秒経ったあとに spitted されたかです
+      // (サンプルだと, 1番目のファイル (0.mp4) は, 17:16:56 + 4000 [ms] = 17:17:00 )
+      "elapsedMs": 3000,
+      // 動画の長さ (ミリ秒)です
+      // startWith + elapsedMs + durationMs で動画の終わりの時刻が得られるね
+      "durationMs": 5000,
+      // AIの解析結果を入れるところです  まだ未定
+      "analysis": {
+        // 事前に決められた行動に関するタグをつけてもらう
+        "tag": ["eat", "drink", "sleep"],
+        // AI に動画の内容を説明してもらう
+        "description": "Example description..."
+      }
+    },
+    {
+      "elapsedMs": 32000,
+      "durationMs": 8000,
+      "analysis": {
+        "tag": ["eat", "drink", "sleep"],
+        "description": "Example description..."
+      }
+    },
+    {
+      "elapsedMs": 49000,
+      "durationMs": 4000,
+      "analysis": {
+        "tag": ["eat", "drink", "sleep"],
+        "description": "Example description..."
+      }
+    },
+    {
+      "elapsedMs": 66000,
+      "durationMs": 1000,
+      "analysis": {
+        "tag": ["eat", "drink", "sleep"],
+        "description": "Example description..."
+      }
+    }
+  ]
+}
