@@ -1,8 +1,11 @@
 # 要件定義
+
 ## 概要
+
 analyzer からのデータをビジュアル化をする view
 
 ## フレームワーク
+
 - Vue3
 - Nuxt3
 - ffmpeg
@@ -11,6 +14,7 @@ analyzer からのデータをビジュアル化をする view
 - Vuetify
 
 ## 機能一覧
+
 - [ ] ログイン
   - Microsoft アカウントでのログイン認可エンドポイントへ飛ばす
   - 認可コード をもらう
@@ -27,7 +31,7 @@ analyzer からのデータをビジュアル化をする view
 - [ ] タグ機能
   - 取得した lapsq についているタグで検索やグループ化を行えるようにする
   - AIがつけた説明もまあ 検索をかけれるようにする  
-    (どちらの表示でもホバーしたら出てくるくらいの priority で) 
+    (どちらの表示でもホバーしたら出てくるくらいの priority で)
 - [ ] 動物の説明機能
   - 動物のざっとした写真と説明を表示する  
     (動物をマルチで管理するかもしれない時用)
@@ -37,19 +41,18 @@ analyzer からのデータをビジュアル化をする view
 - [ ] 動物切り替え
   - もし時間が余ったら, データとUIの追加したい...  
 
-
 ## ログインのフロー
 
 ``` mermaid
 sequenceDiagram
   autonumber
-	participant viewer
-	participant analyzer
-	participant cloudflare D1
-	participant Azure AD
+ participant viewer
+ participant analyzer
+ participant cloudflare D1
+ participant Azure AD
   participant Graph API
 
-	viewer ->> Azure AD : 認証のリクエスト
+ viewer ->> Azure AD : 認証のリクエスト
   Note right of viewer: Auth Request <br /> [redirect]
 
   loop ユーザーによるログイン
