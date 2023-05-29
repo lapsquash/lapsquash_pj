@@ -50,4 +50,4 @@
 
 ## 全体図
 
-![overall_view](./assets/overall_view.svg)
+![overall_view](assets/figure/overall_view.svg)
