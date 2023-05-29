@@ -1,13 +1,17 @@
 # 要件定義
+
 ## 概要
+
 動画の保存と要求の処理と AI での解析をする backend
 
 ## フレームワーク
+
 - wrangler
 - TypeScript
 - Hono
 
 ## 機能一覧
+
 - [ ] Credential の発行と管理
   - Azure AD の認可サーバーへ, トークンリクエストを送る
   - アクセストークンとリフレッシュトークンをもらう
@@ -15,25 +19,24 @@
   - Cloudflare D1 に uuid をキーに, トークン類などを保存する
   - クライアント用のCredential を発行 & return
 - [ ] SharePoint との接続
-  - 共有リンクの発行とファイルURLの発行 (blobで返すのもアリ) 
+  - 共有リンクの発行とファイルURLの発行 (blobで返すのもアリ)
   - ファイルアップロード (どうしよう...)
 - [ ] APIスキーマの生成
   - aspidaで作ってはいる...
   - ブランチから index.ts のみを clone して, それをもとに $api と $mock を生成する
-
 
 ## ログインのフロー
 
 ``` mermaid
 sequenceDiagram
   autonumber
-	participant viewer
-	participant analyzer
-	participant cloudflare D1
-	participant Azure AD
+  participant viewer
+  participant analyzer
+  participant cloudflare D1
+  participant Azure AD
   participant Graph API
 
-	viewer ->> Azure AD : 認証のリクエスト
+  viewer ->> Azure AD : 認証のリクエスト
   Note right of viewer: Auth Request <br /> [redirect]
 
   loop ユーザーによるログイン
