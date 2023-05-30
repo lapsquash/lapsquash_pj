@@ -9,6 +9,18 @@
 
 2023/04/01 - 2023/12/16
 
+## アブスト
+
+長時間撮影された動物の動画を全て見ることは困難である。本研究では, AI 技術を用いて動物行動の分析・分類, ダイジェスト化を行い, 必要な行動のみをアプリケーションで確認できるシステムを開発する。
+
+It is difficult to watch all the footage of animals captured over a long period of time. In this study, we develop a system using AI technology to analyze, classify, and digests animal behaviors, allowing users to view only the necessary actions through an application.
+
+### キーワード
+  
+動物行動, 動画分析, カメラモジュール, AI, GPT-4
+
+animal behavior, video analysis, camera module, AI, GPT-4
+
 ## 研究の背景・目的
 
 動画が安価で手軽に撮影出来るようになったことから, 動物園などの研究機関をはじめ, 留守番中のペットなど身近なところでも, 常時撮影が行われている。しかし, 長時間撮影された動画を全て見ることは困難である。そこで, 本研究では長時間の動画を分析・分類をし, 分析結果のダイジェスト化を目的とする。
@@ -19,7 +31,7 @@
 
 ## 研究の予定・進行状況
 
-研究期間中は, カメラモジュールからの動画を細分化して圧縮し, アップロードを行い, 動画を GPT-4 の API で分析する。また, 分析結果と共にオブジェクトストレージへ保存し, 動画と分析結果をアプリケーションで閲覧できるようにする。研究期間後半には, 研究成果の発表会を開催し, 研究成果を広く社会に伝える予定である。
+研究期間中は, カメラモジュールからの動画を細分化して圧縮し, アップロードを行い, 動画を GPT-4 の API で分析する。また, 分析結果と共にストレージへ保存し, アプリケーションで閲覧できるようにする。
 
 ## 研究成果の想定・期待
 
