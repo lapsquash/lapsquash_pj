@@ -17,17 +17,17 @@
   - アクセストークンとリフレッシュトークンをもらう
   - アクセストークンをもとに, ユーザーの uuid を取得する
   - Cloudflare D1 に uuid をキーに, トークン類などを保存する
-  - クライアント用のCredential を発行 & return
+  - クライアント用の Credential を発行 & return
 - [ ] SharePoint との接続
-  - 共有リンクの発行とファイルURLの発行 (blobで返すのもアリ)
+  - 共有リンクの発行とファイル URL の発行 (blob で返すのもアリ)
   - ファイルアップロード (どうしよう...)
-- [ ] APIスキーマの生成
-  - aspidaで作ってはいる...
+- [ ] API スキーマの生成
+  - aspida で作ってはいる...
   - ブランチから index.ts のみを clone して, それをもとに $api と $mock を生成する
 
 ## ログインのフロー
 
-``` mermaid
+```mermaid
 sequenceDiagram
   autonumber
   participant viewer

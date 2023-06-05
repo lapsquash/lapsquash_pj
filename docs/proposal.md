@@ -16,7 +16,7 @@
 It is difficult to watch all the footage of animals captured over a long period of time. In this study, we develop a system using AI technology to analyze, classify, and digests animal behaviors, allowing users to view only the necessary actions through an application.
 
 ### キーワード
-  
+
 動物行動, 動画分析, カメラモジュール, AI, GPT-4
 
 animal behavior, video analysis, camera module, AI, GPT-4
