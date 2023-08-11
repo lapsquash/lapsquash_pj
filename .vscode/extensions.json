@@ -3,6 +3,7 @@
     "bierner.markdown-mermaid",
     "davidanson.vscode-markdownlint",
     "yzhang.markdown-all-in-one",
-    "bierner.github-markdown-preview"
+    "bierner.github-markdown-preview",
+    "taichi.vscode-textlint"
   ]
 }

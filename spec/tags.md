@@ -34,7 +34,7 @@
 ### $M$: 動く、跳ぶ、走る、歩く
 
 - 昼行性の動物で昼間に行動し、夜になると眠る。
-- 時速30kmで走る。
+- 時速 30km で走る。
 
 ### $P$: 遊ぶ
 
@@ -65,11 +65,11 @@
 - [友好関係にある仲間に.......の根拠](https://www.jstage.jst.go.jp/article/janip/63/2/63_63.2.4/_pdf/-char/ja)
 - [ニホンザルが毛づくろいをする理由](https://www.osaruland.jp/tips/1820/)
 - [ニホンザルの毛づくろい](https://jinrui.zool.kyoto-u.ac.jp/Arashiyama/guide.html)
-![act_details](https://github.com/lapsquash/lapsquash_pj/assets/123618777/a021fa56-7122-49b8-8699-b303ebf41e60)
+  ![act_details](https://github.com/lapsquash/lapsquash_pj/assets/123618777/a021fa56-7122-49b8-8699-b303ebf41e60)
 - [ニホンザルってどんな動物？](https://jinrui.zool.kyoto-u.ac.jp/Arashiyama/whatisJmacaque.html)
 - [ニホンザルの分布](https://jinrui.zool.kyoto-u.ac.jp/FuscataHome/bunpu.html#:~:text=%E6%97%A5%E6%9C%AC%E3%81%AB%E7%94%9F%E6%81%AF%E3%81%99%E3%82%8B%E3%82%B5%E3%83%AB,%E5%BA%83%E3%81%8F%E5%88%86%E5%B8%83%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82)
-- [睡眠](https://jigokudani-yaenkoen.co.jp/contents/detail?id=117)
-  -[毛ずくろいしらみを....](http://repository.tufs.ac.jp/bitstream/10108/89011/1/field-16_p18-19.pdf)
+- [睡眠](https://jigokudani-yaenkoen.co.jp/contents/detail?id=117) -[毛ずくろいしらみを....](http://repository.tufs.ac.jp/bitstream/10108/89011/1/field-16_p18-19.pdf)
+
 ### 注意点
 
 - 「ニホンザル」は日本に生息するサルということ
