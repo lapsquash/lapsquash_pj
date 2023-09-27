@@ -1,6 +1,12 @@
 {
+  "scripts": {
+    "lint": "npx textlint ."
+  },
   "devDependencies": {
     "textlint": "^13.3.3",
     "textlint-rule-preset-ja-technical-writing": "^8.0.0"
+  },
+  "dependencies": {
+    "textlint-rule-preset-jtf-style": "^2.3.13"
   }
 }
