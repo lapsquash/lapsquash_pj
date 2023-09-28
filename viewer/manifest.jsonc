@@ -18,7 +18,7 @@
         // セクションのタイトルをつけてもらう
         "title": "Example title 0",
         // 事前に決められた行動に関するタグをつけてもらう
-        "tag": ["eat", "drink", "sleep"],
+        "tags": ["eat", "drink", "sleep"],
         // AI に動画の内容を説明してもらう
         "description": "Example description 0, Example description 0, Example description 0"
       }
@@ -28,7 +28,7 @@
       "durationMs": 8000,
       "analysis": {
         "title": "Example title 1",
-        "tag": ["eat", "drink", "sleep"],
+        "tags": ["eat", "drink", "sleep"],
         "description": "Example description 1, Example description 1, Example description 1"
       }
     },
@@ -37,7 +37,7 @@
       "durationMs": 4000,
       "analysis": {
         "title": "Example title 2",
-        "tag": ["eat", "drink", "sleep"],
+        "tags": ["eat", "drink", "sleep"],
         "description": "Example description 2, Example description 2, Example description 2"
       }
     },
@@ -46,7 +46,7 @@
       "durationMs": 1000,
       "analysis": {
         "title": "Example title 3",
-        "tag": ["eat", "drink", "sleep"],
+        "tags": ["eat", "drink", "sleep"],
         "description": "Example description 3, Example description 3, Example description 3"
       }
     }
