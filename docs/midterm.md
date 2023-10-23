@@ -126,10 +126,7 @@ OAuth 2.0 に準拠するように実装したので, ユーザーが squasher �
 
 ★  
 技術スタックは表の通りです.  
-squasher は Raspberry Pi 上で動いており, viewer は好きな PC で動きます.  
-しかし, analyzer はエッジ関数として, 世界中のどこからでも実行できるようになっています.  
-1 つ工夫点は, エッジ関数としての analyzer のコードが git submodule として, 他の squasher や viewer のコードに組み込まれていることです.  
-この理由は analyzer の API を tRPC で記述することによって, 他のどちらからでも型安全に呼び出せるようにするためです.
+https://prod.liveshare.vsengsaas.visualstudio.com/join?9A14F50ED026BA9D4E30D5F6F3EA551F70B0
 
 それでは, それぞれのタスクと実装済みのものを見てみましょう.
 

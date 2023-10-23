@@ -4,10 +4,15 @@
     "preset-ja-technical-writing": {
       "ja-no-mixed-period": {
         "periodMark": "。"
+      },
+      "preset-jtf-style": {
+        "3.1.1.全角文字と半角文字の間": false,
+        "1.1.1.本文": false
+      },
+      "no-mix-dearu-desumasu": {
+        "preferInBody": "である",
+        "strict": true
       }
-    },
-    "preset-jtf-style": {
-      "3.1.1.全角文字と半角文字の間": false
     }
   }
 }
