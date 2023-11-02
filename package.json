@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "lint": "npx textlint ."
+    "lint": "npx textlint .",
+    "clear-sp": "python ./scripts/clear_sp.py",
+    "clear-sp:article-ait": "yarn clear-sp ./docs/AIT/article/work.md ./tmp/work_cleared_sp.md"
   },
   "devDependencies": {
     "textlint": "^13.3.3",
