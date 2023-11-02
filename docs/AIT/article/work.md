@@ -95,7 +95,7 @@ squasher は Raspberry Pi 上で動いており、 viewer は好きなデバイ�
 
 ### 調査・活動の実施内容と成果
 
-研究期間中は、 カメラモジュールからの動画を Raspberry Pi を使用して対象の動物が動いている場面のみを抽出して Web アプリ状に表示した。 動画を Bard の Image Input API で分析し、分析結果と共にストレージへ保存し、 lapsquash アプリで AI が生成した説明の文章とともに表示される。
+研究期間中は、 カメラモジュールからの動画を Raspberry Pi を使用して対象の動物が動いている場面のみを抽出して Web アプリ上に表示した。 動画を Bard の Image Input API で分析し、分析結果と共にストレージへ保存し、 lapsquash アプリで AI が生成した説明の文章とともに表示される。
 
 <img src="./assets/img/8.png" width="600" title="図8: 意見交換会の様子" />
 
