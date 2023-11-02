@@ -23,7 +23,7 @@
 ・動物行動を AI で分析
 ・ 解析したデータを Web アプリ上に表示
 という手順を踏んで動いている。システムは、撮影に Raspberry Pi、動画分析には Bard の Image Input API を利用した。 長時間の動画から自動的に活動シーンだけを切り抜き、AI を用いて分析・分類しアプリとして表示する。
-分類した動画を事前に私たちが複数の論文[^1]をもとに設定したタグ(表1)に分類し、抽出した動画が何を写しているのか一目でわかるようになっている。 AI を用いて行動についての説明も追加し、学習にも役立つアプリとした。
+分類した動画を事前に私たちが複数の論文[^1][^2][^3][^4][^5][^6][^7][^8][^9][^10]をもとに設定したタグ(表1)に分類し、抽出した動画が何を写しているのか一目でわかるようになっている。 AI を用いて行動についての説明も追加し、学習にも役立つアプリとした。
 
 | タグ | 行動                   |
 | ---- | ---------------------- |
@@ -156,7 +156,7 @@ $$
 $$
 
 また、始点と終点に対して許容される誤差を始点、終点それぞれ -1 秒、+1 秒とした。
-その結果、おさるランド＆アニタウンでのニホンザルの定点カメラ[^2]の 30 分間の動画[1] の精度は、43.476 %と、石狩ひつじ牧場でのヒツジの定点カメラの 30 分間の動画[2] の精度は、54.388 % となった。
+その結果、おさるランド＆アニタウンでのニホンザルの定点カメラの 30 分間の動画[^11] の精度は、43.476 %と、石狩ひつじ牧場でのヒツジの定点カメラの 30 分間の動画[^12] の精度は、54.388 % となった。
 
 抽出部分では切り抜きの範囲が狭すぎることがあった。使用者がこのアプリで動画を閲覧する際、動画が短すぎて動物が何をしているのかが分かりにくいため改善が必要である。
 AI のタグ付けや、分析する部分では、青いコンテナの上で歩いている動画を AI に解析させてみたところ、「水槽の中にいるサル」といった抽象的な説明しかできなかった。
@@ -170,23 +170,21 @@ AI のタグ付けや、分析する部分では、青いコンテナの上で�
 
 ### 先行研究との違い
 
-行動記録を通じた動物の理解のための動物園動物観察アプリケーションの開発 ([情報処理学会](https://ipsj.ixsq.nii.ac.jp/ej/?action=repository_uri&item_id=107178&file_id=1&file_no=1))
+行動記録を通じた動物の理解のための動物園動物観察アプリケーションの開発[^13]
 この研究では位置情報と温度センサーを用いて動物の行動観察を行っていた。一方、我々の研究では AI で行動の分析をし、行動に対応するタグや行動の説明を付与できる。資金面で見てもカメラを用意するだけであり、人件費もかからないため、より安価に動物行動を観察することができる。
 
 ### 参考文献
 
 [^1]: [ニホンザル野生群の日周活動リズム](https://www.jstage.jst.go.jp/article/ase1911/79/2/79_2_128/_pdf)
-[^2]:[ニホンザルが毛づくろいをする理由](https://www.osaruland.jp/tips/1820/)
-    [ニホンザルの毛づくろい](https://jinrui.zool.kyoto-u.ac.jp/Arashiyama/guide.html)
-    [東北野生動物保護管理センター](https://www.env.go.jp/nature/choju/effort/effort5/effort5-3b/4_0130_saru.pdf)
-    [ニホンザルってどんな動物？](https://jinrui.zool.kyoto-u.ac.jp/Arashiyama/whatisJmacaque.html)
-    [ニホンザルの分布](https://jinrui.zool.kyoto-u.ac.jp/FuscataHome/bunpu.html#:~:text=%E6%97%A5%E6%9C%AC%E3%81%AB%E7%94%9F%E6%81%AF%E3%81%99%E3%82%8B%E3%82%B5%E3%83%AB,%E5%BA%83%E3%81%8F%E5%88%86%E5%B8%83%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82)
-    [睡眠](https://jigokudani-yaenkoen.co.jp/contents/detail?id=117)
-    [絶滅危惧種リスト](https://endangered-species.biz/archives/2457)
-    [京都大学学術情報リポジトリ](https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/148029/1/100_145.pdf)
-    [ニホンザルの生態と生息環境について](https://www.pref.shiga.lg.jp/file/attachment/1010347.pdf)
-
-[^2]: 日光さる軍団猿山ライブカメラ  
-  ref: [YouTube](https://www.youtube.com/live/IjMWzpyCNZM?feature=share)
-- 先行研究
-  ref: [情報処理学会](https://ipsjixsq.nii.ac.jp/ej/?action=repository_uri&item_id=107178&file_id=1&file_no=1)
+[^2]: [ニホンザルが毛づくろいをする理由](https://www.osaruland.jp/tips/1820/)
+[^3]: [ニホンザルの毛づくろい](https://jinrui.zool.kyoto-u.ac.jp/Arashiyama/guide.html)
+[^4]: [東北野生動物保護管理センター](https://www.env.go.jp/nature/choju/effort/effort5/effort5-3b/4_0130_saru.pdf)
+[^5]: [ニホンザルってどんな動物？](https://jinrui.zool.kyoto-u.ac.jp/Arashiyama/whatisJmacaque.html)
+[^6]: [ニホンザルの分布](https://jinrui.zool.kyoto-u.ac.jp/FuscataHome/bunpu.html#:~:text=%E6%97%A5%E6%9C%AC%E3%81%AB%E7%94%9F%E6%81%AF%E3%81%99%E3%82%8B%E3%82%B5%E3%83%AB,%E5%BA%83%E3%81%8F%E5%88%86%E5%B8%83%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82)
+[^7]: [ニホンザルの一日](https://jigokudani-yaenkoen.co.jp/contents/detail?id=117)
+[^8]: [絶滅危惧種リスト](https://endangered-species.biz/archives/2457)
+[^9]: [京都大学学術情報リポジトリ](https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/148029/1/100_145.pdf)
+[^10]: [ニホンザルの生態と生息環境について](https://www.pref.shiga.lg.jp/file/attachment/1010347.pdf)
+[^11]: [日光さる軍団猿山ライブカメラ](https://www.youtube.com/live/IjMWzpyCNZM?feature=share)
+[^12]: [石狩ひつじ牧場ライブカメラ](https://youtu.be/8gHdcDgNnJg)
+[^13]: [情報処理学会](https://ipsjixsq.nii.ac.jp/ej/?action=repository_uri&item_id=107178&file_id=1&file_no=1)
