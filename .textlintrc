@@ -1,13 +1,26 @@
 {
-  "filters": {},
+  "filters": {
+    "comments": true
+  },
   "rules": {
     "preset-ja-technical-writing": {
       "ja-no-mixed-period": {
         "periodMark": "。"
+      },
+      "sentence-length": {
+        "max": 150
+      },
+      "preset-jtf-style": {
+        "3.1.1.全角文字と半角文字の間": false,
+        "1.1.1.本文": false
+      },
+      "no-mix-dearu-desumasu": {
+        "preferInBody": "である",
+        "strict": true
+      },
+      "no-doubled-joshi": {
+        "min_interval": 1
       }
-    },
-    "preset-jtf-style": {
-      "3.1.1.全角文字と半角文字の間": false
     }
   }
 }
