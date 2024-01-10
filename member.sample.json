@@ -1,0 +1,15 @@
+{
+  "students": [
+    {
+      "id": "hoge",
+      "class": "T3A",
+      "name": "XXX XXX"
+    },
+    {
+      "id": "fuga",
+      "class": "T3A",
+      "name": "YYY YYY"
+    }
+  ],
+  "teachers": ["ZZZ ZZZ"]
+}

@@ -2,28 +2,7 @@
 #import "assets/modules/articleFig.typ": articleFig
 #import "assets/modules/personHandled.typ": personHandled
 
-#let member = (
-  // クラス, 名前
-  (class: "T3A", name: "XXX XXX", handled: [
-    // 自分が担当したところ
-    + XXX
-  ], handledResult: [
-    // 自分が担当したところの結果
-    + XXX
-    + XXX
-  ], futureIssues: [
-    // 自分が担当したところの今後の課題・考察
-    + XXX
-  ]),
-  (class: "T3A", name: "YYY YYY", handled: [
-    + XXX
-  ], handledResult: [
-    + XXX
-    + XXX
-  ], futureIssues: [
-    + XXX
-  ]),
-)
+#let member = json("assets/member.json")
 
 #show: doc => conf(
   title: (
@@ -33,11 +12,11 @@
     en: [Title -- English],
   ),
   // メンバー
-  member: member,
+  member: member.students,
   // 指導教諭
-  teacher: "ZZZ ZZZ",
+  teacher: member.teachers.join(", "),
   // 発表学科略号/発表番号
-  header: [X00],
+  header: "J06",
   doc,
 )
 
@@ -77,15 +56,67 @@
 #bibliography("refs.yml", title: [])
 
 #pagebreak()
-#for p in member {
+
+#let handed = (
+  //
+  "machida": (
+    // 自分が担当したところ
+    handled: [
+      + XXX
+    ],
+    // 自分が担当したところの結果
+    handledResult: [
+      + XXX
+      + XXX
+    ],
+    // 自分が担当したところの今後の課題・考察
+    futureIssues: [
+      + XXX
+    ],
+  ),
+  //
+  "osakada": (
+    // 自分が担当したところ
+    handled: [
+      + XXX
+    ],
+    // 自分が担当したところの結果
+    handledResult: [
+      + XXX
+      + XXX
+    ],
+    // 自分が担当したところの今後の課題・考察
+    futureIssues: [
+      + XXX
+    ],
+  ),
+  "suzuki": (
+    // 自分が担当したところ
+    handled: [
+      + XXX
+    ],
+    // 自分が担当したところの結果
+    handledResult: [
+      + XXX
+      + XXX
+    ],
+    // 自分が担当したところの今後の課題・考察
+    futureIssues: [
+      + XXX
+    ],
+  ),
+)
+
+#for p in member.students {
+  let hd = handed.at(p.id)
   personHandled(
     //
     person: p,
-    handled: p.handled,
-    handledResult: p.handledResult,
-    futureIssues: p.futureIssues,
+    handled: hd.handled,
+    handledResult: hd.handledResult,
+    futureIssues: hd.futureIssues,
   )
-  if p.name != member.last().name {
+  if p.name != member.students.last().name {
     hr
   }
 }

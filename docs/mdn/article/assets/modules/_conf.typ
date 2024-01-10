@@ -63,7 +63,7 @@
       #for p in member [
         #p.class #p.name
         #if p.name != member.last().name [・]
-      ]
+      ]\
       指導教諭: #teacher
     ]\
     #v(1em)
