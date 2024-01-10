@@ -7,9 +7,9 @@
 #show: doc => conf(
   title: (
     // 表題 - 和文
-    jp: [表題 -- 和文],
+    jp: "AI による動画短縮のための場面抽出分類システム開発",
     // 表題 - 英文
-    en: [Title -- English],
+    en: "Development of Scene Extraction and Classification System for Video Shortening Using AI",
   ),
   // メンバー
   member: member.students,
@@ -62,16 +62,26 @@
   "machida": (
     // 自分が担当したところ
     handled: [
-      + XXX
+      - Squasher, Analyzer の 設計, 実装
+      - 研究環境とソースリポジトリの管理
     ],
     // 自分が担当したところの結果
     handledResult: [
-      + XXX
-      + XXX
+      - Squasher
+        - Core\
+          映像の読み込みと類似度ハッシュと算出, 映像の切り抜きを行い, 算出された値のグラフをリアルタイムに描画するソフトウェア
+        - CLI\
+          SharePoint にビデオクリップをアップロードするための OAuth 2.0 に準拠したコマンドラインツール
+        - Inspector\
+          映像の切り抜き精度とタグ付け精度の検証と類似度ハッシュの種類による精度の変化の対照実験するためのツール
+      - Analyzer\
+        SharePoint との接続とラッパー API の実装, Bard のプロンプトの考案
     ],
     // 自分が担当したところの今後の課題・考察
     futureIssues: [
-      + XXX
+      - 切り抜きアルゴリズムの改善\
+        #i 類似度ハッシュの変化率を推移を, 過去の変化率をもとに指数移動平均を求めているが, 切り抜き範囲が短すぎるという課題があった.\
+        #i 切り抜きをするかどうかの動的なしきい値を遅延評価をによって算出し, あとからグループ化することで適切な粒度で切り抜き範囲を決定することができると考察する.
     ],
   ),
   //
