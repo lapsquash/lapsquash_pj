@@ -1,22 +1,109 @@
-ポラーノの広場:
-  type: book
-  title: ポラーノの広場
-  author: 宮沢賢治
-  publisher: 新潮文庫
-  date: 1995
+MPEG動画像カット検出法:
+  type: Article
+  author: 椎尾, 一郎
+  title: 予測ブロック数を利用したMPEG動画像カット検出法
+  journal: 全国大会講演論文集
+  publisher: 情報処理学会
+  year: 1996-03
+  volume: 52
+  page-range: 211-212
+  number: メディア情報処理
+  URL: https://cir.nii.ac.jp/crid/105057404712811955
 
-lorem-ipsum:
-  type: web
-  title: lorem ipsum - Wikipedia
-  author: フリー百科事典『ウィキペディア（Wikipedia）』
-  url:
-    value: https://ja.wikipedia.org/wiki/Lorem_ipsum
-    date: 2023-12-17
+ニホンザル野生群の日周活動リズム-予報:
+  type: Article
+  author:
+    - 岩野
+    - 泰三
+    - 四元
+    - 伸子
+    - 西田
+    - 利貞
+  title: ニホンザル野生群の日周活動リズム-予報
+  journal: 人類學雜誌
+  publisher: 人類學雜誌社
+  year: 1971
+  volume: 79
+  page-range: 128-138
+  number: 2
+  URL: https://doi.org/10.1537/ase1911.79.128
 
-lenna:
-  type: web
-  title: 標準画像データベース[神奈川工大 信号処理応用研究室]
-  author: 神奈川工科大学 情報学部 情報工学科 信号処理応用研究室
+ニホンザルが毛づくろいをする理由:
+  type: Web
+  year: 2020
   url:
-    value: http://www.ess.ic.kanagawa-it.ac.jp/app_images_j.html
-    date: 2023-12-17
+    value: https://www.osaruland.jp/tips/1820/
+    date: 2023-06-06
+
+ニホンザルの基礎生態と特定計画策定・運用のポイントについて:
+  type: Web
+  author:
+    - 宇野壮春
+    - 清野紘典
+  year: 2014
+  url:
+    value: https://www.env.go.jp/nature/choju/effort/effort5/effort5-3b/4_0130_saru.pdf
+    date: 2023-05-30
+
+ニホンザルホームページ:
+  type: Web
+  author: 人類進化論研究室
+  year: 2016
+  url:
+    value: https://jinrui.zool.kyoto-u.ac.jp/FuscataHome/bunpu.html
+    date: 2023-06-06
+
+ニホンザルの一日:
+  type: Web
+  author: 地獄谷野猿公苑
+  year: 2023
+  url:
+    value: https://jigokudani-yaenkoen.co.jp/contents/detail?id=117
+    date: 2023-08-11
+
+チンパンジーとヒトの共通点・相違点:
+  type: Article
+  author:
+    - 山本
+    - 真也
+  title: "チンパンジーとヒトの共通点・相違点 : 社会的知性を中心に"
+  journal: 人文學報
+  publisher: 京都大学人文科学研究所
+  year: 2011
+  volume: 100
+
+ニホンザルの生態と生息環境について:
+  type: Web
+  author: 滋賀県
+  year: 2003
+  url:
+    value: https://www.pref.shiga.lg.jp/file/attachment/1010347.pdf
+    date: 2023-05-30
+
+おさるランド:
+  type: Web
+  author: 地獄谷野猿公苑
+  year: 2022
+  url:
+    value: https://www.youtube.com/watch?v=IjMWzpyCNZM
+    date: 2023-09-12
+
+ひつじのライブカメラ:
+  type: Web
+  author: 石狩ひつじ牧場 OFFICIAL CHANNEL
+  year: 2023
+  url:
+    value: https://www.youtube.com/watch?v=8gHdcDgNnJg
+    date: 2023-10-17
+
+動物園動物観察アプリケーションの開発:
+  type: Article
+  author:
+    - 吉田 信明
+    - 田中 正之
+    - 和田 晴太郎
+  title: 行動記録を通じた動物の理解のための動物園動物観察アプリケーションの開発
+  journal: 情報処理学会研究報告
+  publisher: 情報処理学会
+  year: 2014
+  number: 11
