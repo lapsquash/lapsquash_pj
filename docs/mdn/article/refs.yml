@@ -1,0 +1,22 @@
+ポラーノの広場:
+  type: book
+  title: ポラーノの広場
+  author: 宮沢賢治
+  publisher: 新潮文庫
+  date: 1995
+
+lorem-ipsum:
+  type: web
+  title: lorem ipsum - Wikipedia
+  author: フリー百科事典『ウィキペディア（Wikipedia）』
+  url:
+    value: https://ja.wikipedia.org/wiki/Lorem_ipsum
+    date: 2023-12-17
+
+lenna:
+  type: web
+  title: 標準画像データベース[神奈川工大 信号処理応用研究室]
+  author: 神奈川工科大学 情報学部 情報工学科 信号処理応用研究室
+  url:
+    value: http://www.ess.ic.kanagawa-it.ac.jp/app_images_j.html
+    date: 2023-12-17
